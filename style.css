@@ -1,5 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
 *{
     padding: 0px;
     margin: 0px;
-    background-color: greenyellow;
+}
+/* .gamecontainer{
+    background-color: yellow;
+
+} */
+nav{
+    background-color: black;
+    color: white;
+    height: 38px;
+    padding: 5px;
+    font-size: 33px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width: 50vh;
+    margin: auto;
+}
+.grid-item{
+    border: 2px solid black;
+    font-size: 40px;
+    padding: 27px;
+    text-align: center;
+    height: 80px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.grid-item:hover{
+    background-color: rgb(198, 242, 227);
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.br-0{
+    border-right: 0;
+}
+.container{
+    /* background-color: yellow; */
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#reset{
+    padding: 8px;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    font-size: 25px;
+    border-radius: 10px;
+}
+h1{
+    margin-top: 5px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+#reset:hover{
+    background-color: rgb(220, 193, 193);
+    color: black;
+    border: none;
 }
